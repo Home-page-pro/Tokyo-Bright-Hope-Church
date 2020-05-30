@@ -1,7 +1,11 @@
 /* About Section */
 #about {
 	padding: 120px 0;
-	background: #f6f6f6;
+	background: $bll;
+	
+	@include sp {
+		padding: 70px 0;
+	}
 	
 	.AboutTBHC {
 		p {
@@ -9,7 +13,7 @@
 			
 			span {
 				font-weight: bold;
-                background: linear-gradient(transparent 60%, $bl 60%);
+                background: linear-gradient(transparent 60%, $bm 60%);
 			}
 
 			&:last-child {
@@ -32,8 +36,9 @@
 				margin-top: 30px;
 				display: inline-block;
 				border-radius: 100px 0 100px 0;
-				box-shadow: -15px 0 $bl;
 				width: 70%;
+                box-shadow: 4px 4px 7px 0px rgba(0, 0, 0, 0.3), -15px 0 $bl;
+
 			}
 		}
 	}

@@ -48,6 +48,10 @@
 }
 .section-title {
 	margin-bottom: 90px;
+
+	@include sp {
+		margin-bottom: 60px;
+	}
 }
 .btn-custom {
 	text-transform: uppercase;

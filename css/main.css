@@ -21,8 +21,8 @@ body, html {
 }
 
 h2 {
-  margin: 0 0 20px 0;
-  font-weight: 500;
+  margin-bottom: 20px;
+  font-weight: 600;
   font-size: 34px;
   color: #333;
   text-transform: uppercase;
@@ -41,7 +41,7 @@ h2 {
 
 h3 {
   font-size: 26px;
-  font-weight: 500;
+  font-weight: 550;
   color: #333;
   text-align: center;
   letter-spacing: 5px;
@@ -61,7 +61,9 @@ h4 {
   font-weight: 400;
   color: #333;
   text-align: center;
-  margin: 30px 0 30px;
+  margin: 30px 0;
+  letter-spacing: 5px;
+  text-indent: 5px;
 }
 
 @media (max-width: 600px) {
@@ -270,6 +272,12 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
   margin-bottom: 90px;
 }
 
+@media (max-width: 600px) {
+  .section-title {
+    margin-bottom: 60px;
+  }
+}
+
 .btn-custom {
   text-transform: uppercase;
   color: #fff;
@@ -378,7 +386,13 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 /* About Section */
 #about {
   padding: 120px 0;
-  background: #f6f6f6;
+  background: #ecfcff;
+}
+
+@media (max-width: 600px) {
+  #about {
+    padding: 70px 0;
+  }
 }
 
 #about .AboutTBHC p {
@@ -387,8 +401,8 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 
 #about .AboutTBHC p span {
   font-weight: bold;
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(60%, transparent), color-stop(60%, #b2ebf2));
-  background: linear-gradient(transparent 60%, #b2ebf2 60%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(60%, transparent), color-stop(60%, #51eaea));
+  background: linear-gradient(transparent 60%, #51eaea 60%);
 }
 
 #about .AboutTBHC p:last-child {
@@ -411,36 +425,62 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
   margin-top: 30px;
   display: inline-block;
   border-radius: 100px 0 100px 0;
-  -webkit-box-shadow: -15px 0 #b2ebf2;
-          box-shadow: -15px 0 #b2ebf2;
   width: 70%;
+  -webkit-box-shadow: 4px 4px 7px 0px rgba(0, 0, 0, 0.3), -15px 0 #b2ebf2;
+          box-shadow: 4px 4px 7px 0px rgba(0, 0, 0, 0.3), -15px 0 #b2ebf2;
 }
 
 /* worship Section */
 #worship {
   padding: 120px 0;
+  background-color: #51eaea;
 }
 
-#worship .service {
-  padding-left: 40px;
+@media (max-width: 600px) {
+  #worship {
+    padding: 70px 0;
+  }
 }
 
-#worship img {
+#worship h4 {
+  line-height: 60px;
+  margin-bottom: 50px;
+  font-size: 30px;
+}
+
+@media (max-width: 600px) {
+  #worship h4 {
+    font-size: 20px;
+  }
+}
+
+#worship .worship {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+#worship .worship img {
   width: 300px;
+  height: 200px;
+  display: inline-block;
   border-radius: 75px 0 75px 0;
-  -webkit-box-shadow: 15px 0 #a7c44c;
-          box-shadow: 15px 0 #a7c44c;
-}
-
-#worship h3 {
-  padding: 10px 0;
-  text-transform: uppercase;
+  -webkit-box-shadow: 4px 4px 7px 0px rgba(0, 0, 0, 0.3), -15px 0 #b2ebf2;
+          box-shadow: 4px 4px 7px 0px rgba(0, 0, 0, 0.3), -15px 0 #b2ebf2;
 }
 
 /* Portfolio Section */
 #portfolio {
   padding: 120px 0;
   background: #f6f6f6;
+}
+
+#portfolio h4 {
+  font-weight: bold;
+  line-height: 40px;
+}
+
+#portfolio .portfolio-p {
+  margin-bottom: 70px;
 }
 
 .categories {
@@ -450,6 +490,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 
 ul.cat li {
   display: inline-block;
+  height: 70px;
 }
 
 ol.type li {
@@ -458,23 +499,23 @@ ol.type li {
 }
 
 ol.type li a {
-  color: #a7c44c;
+  color: #3e64ff;
   font-weight: 400;
   font-size: 15px;
   padding: 10px 20px;
-  border: 2px solid #a7c44c;
+  border: 2px solid #3e64ff;
   border-radius: 10px 0 10px 0;
   text-transform: uppercase;
   letter-spacing: 0.5px;
 }
 
 ol.type li a.active {
-  background: #a7c44c;
+  background: #3e64ff;
   color: #fff;
 }
 
 ol.type li a:hover {
-  background: #a7c44c;
+  background: #3e64ff;
   color: #fff;
 }
 
@@ -517,6 +558,9 @@ ol.type li a:hover {
 
 .portfolio-item {
   margin: 15px 0;
+  width: 360px;
+  height: 230px;
+  overflow: hidden;
 }
 
 .portfolio-item .hover-bg {
