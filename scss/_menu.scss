@@ -16,7 +16,7 @@
 }
 #menu.navbar-default .navbar-nav > li > a {
 	text-transform: uppercase;
-	color: #a7c44c;
+	color: $bm;
 	font-weight: 400;
 	font-size: 15px;
 	padding: 5px 0;
@@ -40,23 +40,20 @@
 	border-radius: 0;
 }
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
-	background-color: #a7c44c;
-	border-color: #a7c44c;
+	background-color: $bm;
+	border-color: $bm;
 }
 .navbar-default .navbar-toggle:hover>.icon-bar {
 	background-color: #FFF;
 }
 .section-title {
-	margin-bottom: 70px;
-}
-.section-title p {
-	font-size: 18px;
+	margin-bottom: 90px;
 }
 .btn-custom {
 	text-transform: uppercase;
 	color: #fff;
-	text-shadow: 0 0 3px #859c3c;
-	background-color: #a7c44c;
+	text-shadow: 0 0 3px $bd;
+	background-color: $bm;
 	border: 0;
 	padding: 14px 20px;
 	margin: 0;
@@ -67,44 +64,5 @@
 }
 .btn-custom:hover, .btn-custom:focus, .btn-custom.focus, .btn-custom:active, .btn-custom.active {
 	color: rgba(255,255,255,0.8);
-	background-color: #94ae44;
-}
-/* Header Section */
-.intro {
-	display: table;
-	width: 100%;
-	padding: 0;
-	background: url(../img/実際に使う写真/万歳.jpg) no-repeat center bottom;
-	background-color: #e5e5e5;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	background-size: cover;
-	-o-background-size: cover;
-}
-.intro .overlay {
-	background: rgba(0,0,0,0.40);
-}
-.intro h1 {
-	color: #fff;
-	font-size: 68px;
-	font-weight: 400;
-	margin-top: 0;
-	margin-bottom: 10px;
-	letter-spacing: -1px;
-}
-.intro span {
-	color: #a7c44c;
-	font-weight: 600;
-}
-.intro p {
-	color: #fff;
-	font-size: 24px;
-	font-weight: 300;
-	margin-top: 10px;
-	margin-bottom: 40px;
-}
-header .intro-text {
-	padding-top: 300px;
-	padding-bottom: 200px;
-	text-align: center;
+	background-color: $bd;
 }

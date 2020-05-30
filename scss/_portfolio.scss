@@ -1,5 +1,5 @@
-/* activity Section */
-#activity {
+/* Portfolio Section */
+#portfolio {
 	padding: 120px 0;
 	background: #f6f6f6;
 }
@@ -63,14 +63,14 @@ ol.type li a:hover {
 	-moz-transition-property: -moz-transform, opacity;
 	transition-property: transform, opacity;
 }
-.activity-item {
+.portfolio-item {
 	margin: 15px 0;
 }
-.activity-item .hover-bg {
+.portfolio-item .hover-bg {
 	overflow: hidden;
 	position: relative;
 }
-.activity-item img {
+.portfolio-item img {
 	border-radius: 0 50px 0 50px;
 }
 .hover-bg .hover-text {
