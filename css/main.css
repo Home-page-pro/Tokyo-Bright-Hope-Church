@@ -77,7 +77,7 @@ h5 {
 }
 
 p {
-  font-size: 1.5rem;
+  font-size: 3rem;
   margin-bottom: 20px;
   text-align: center;
   line-height: 60px;
@@ -85,17 +85,17 @@ p {
 
 @media (max-width: 1100px) {
   p {
-    font-size: 1rem;
+    font-size: 2rem;
     margin-bottom: 15px;
-    line-height: 40px;
+    line-height: 45px;
   }
 }
 
 @media (max-width: 600px) {
   p {
-    font-size: 0.5rem;
+    font-size: 1rem;
     margin-bottom: 10px;
-    line-height: 20px;
+    line-height: 30px;
   }
 }
 
@@ -340,7 +340,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 }
 
 #about .AboutTBHC p {
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 #about .AboutTBHC p span {
@@ -355,13 +355,13 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 
 @media (max-width: 1100px) {
   #about .AboutTBHC p {
-    margin-bottom: 15px;
+    margin-bottom: 25px;
   }
 }
 
 @media (max-width: 600px) {
   #about .AboutTBHC p {
-    margin-bottom: 10px;
+    margin-bottom: 20px;
   }
 }
 

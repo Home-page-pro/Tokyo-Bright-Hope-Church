@@ -90,21 +90,21 @@ h5 {
 	line-height: 20px;
 }
 p {
-	font-size: 1.5rem;
+	font-size: 3rem;
 	margin-bottom: 20px;
 	text-align: center;
 	line-height: 60px;
 	
 	@include tb {
-        font-size: 1rem;
+        font-size: 2rem;
 		margin-bottom: 15px;
-		line-height: 40px;
+		line-height: 45px;
     }
 
     @include sp {
-        font-size: 0.5rem;
+        font-size: 1rem;
 		margin-bottom: 10px;
-		line-height: 20px;
+		line-height: 30px;
     }
 }
 p.intro {
