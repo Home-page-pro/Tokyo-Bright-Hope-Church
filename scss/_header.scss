@@ -27,25 +27,31 @@
 			
 			h1 {
 				color: #fff;
-				font-size: 65px;
+				font-size: 50px;
 				font-weight: 400;
 				margin-top: 0;
 				margin-bottom: 30px;
 				letter-spacing: 5px;
 				text-indent: 5px;
-
+				
 				@include sp {
-					font-size: 30px;
+					font-size: 25px;
 					margin-bottom: 15px;
 				}
-
-				strong {
-					font-size: 100px;
-
-					@include sp {
-						font-size: 50px;
-					}
+				
+			}
+			
+			.header-title-1 {
+				font-size: 100px;
+			
+				@include sp {
+					font-size: 50px;
 				}
+			}
+			
+			.header-title-2 {
+				font-family: 'Krona One', sans-serif;
+				line-height: 40px;
 			}
 			
 			span {

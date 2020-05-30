@@ -226,7 +226,8 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
   color: #eee;
   font-weight: 400;
   text-transform: uppercase;
-  letter-spacing: 1px;
+  letter-spacing: 2px;
+  font-family: 'Leckerli One', cursive;
 }
 
 #menu.navbar-default .navbar-nav > li > a {
@@ -329,7 +330,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 
 .intro .overlay .intro-text h1 {
   color: #fff;
-  font-size: 65px;
+  font-size: 50px;
   font-weight: 400;
   margin-top: 0;
   margin-bottom: 30px;
@@ -339,19 +340,24 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 
 @media (max-width: 600px) {
   .intro .overlay .intro-text h1 {
-    font-size: 30px;
+    font-size: 25px;
     margin-bottom: 15px;
   }
 }
 
-.intro .overlay .intro-text h1 strong {
+.intro .overlay .intro-text .header-title-1 {
   font-size: 100px;
 }
 
 @media (max-width: 600px) {
-  .intro .overlay .intro-text h1 strong {
+  .intro .overlay .intro-text .header-title-1 {
     font-size: 50px;
   }
+}
+
+.intro .overlay .intro-text .header-title-2 {
+  font-family: 'Krona One', sans-serif;
+  line-height: 40px;
 }
 
 .intro .overlay .intro-text span {
@@ -657,8 +663,12 @@ ol.type li a:hover {
 #contact h3 {
   text-transform: uppercase;
   font-size: 20px;
-  font-weight: 400;
+  font-weight: 600;
   color: #555;
+}
+
+#contact .contact-top-p {
+  margin-bottom: 40px;
 }
 
 #contact .text-danger {
@@ -733,29 +743,8 @@ ol.type li a:hover {
 
 /* Footer Section*/
 #footer {
-  background: #333;
-  padding: 50px 0 20px 0;
-}
-
-#footer .social {
-  margin-bottom: 50px;
-}
-
-#footer .social ul li {
-  display: inline-block;
-  margin: 0 20px;
-}
-
-#footer .social i.fa {
-  font-size: 26px;
-  padding: 4px;
-  color: #a7c44c;
-  -webkit-transition: all 0.3s;
-  transition: all 0.3s;
-}
-
-#footer .social i.fa:hover {
-  color: #eee;
+  background: #222;
+  padding: 20px 0 0px 0;
 }
 
 #footer p {
@@ -763,7 +752,7 @@ ol.type li a:hover {
 }
 
 #footer a {
-  color: #999;
+  color: #222;
 }
 
 #footer a:hover {
