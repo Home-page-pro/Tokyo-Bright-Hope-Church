@@ -1,10 +1,18 @@
+$(function () {
+  setTimeout(function () {
+    $('.start p').fadeIn(1600);
+  }, 500); //0.5秒後にロゴをフェードイン!
+  setTimeout(function () {
+    $('.start').fadeOut(500);
+  }, 3500); //2.5秒後にロゴ含め真っ白背景をフェードアウト！
+});
 
 function main() {
 
 (function () {
-   'use strict';
-   
-  	$('a.page-scroll').click(function() {
+  'use strict';
+  
+  $('a.page-scroll').click(function() {
         if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
           var target = $(this.hash);
           target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
