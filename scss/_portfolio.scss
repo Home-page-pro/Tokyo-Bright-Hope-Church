@@ -6,12 +6,18 @@
 	h4 {
 		font-weight: bold;
 		line-height: 40px;
+		
+		span {
+			background: linear-gradient(transparent 80%, $yd 80%);
+			
+		}
 	}
 
 	.portfolio-p {
 		margin-bottom: 70px;
 	}
 }
+
 .categories {
 	padding-bottom: 40px;
 	text-align: center;
@@ -75,9 +81,6 @@ ol.type li a:hover {
 }
 .portfolio-item {
 	margin: 15px 0;
-	width: 360px;
-	height: 230px;
-	overflow: hidden;
 }
 .portfolio-item .hover-bg {
 	overflow: hidden;
@@ -85,6 +88,7 @@ ol.type li a:hover {
 }
 .portfolio-item img {
 	border-radius: 0 50px 0 50px;
+	
 }
 .hover-bg .hover-text {
 	position: absolute;

@@ -479,6 +479,11 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
   line-height: 40px;
 }
 
+#portfolio h4 span {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(80%, transparent), color-stop(80%, #f7be16));
+  background: linear-gradient(transparent 80%, #f7be16 80%);
+}
+
 #portfolio .portfolio-p {
   margin-bottom: 70px;
 }
@@ -558,9 +563,6 @@ ol.type li a:hover {
 
 .portfolio-item {
   margin: 15px 0;
-  width: 360px;
-  height: 230px;
-  overflow: hidden;
 }
 
 .portfolio-item .hover-bg {
