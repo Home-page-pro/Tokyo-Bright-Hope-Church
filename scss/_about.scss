@@ -1,8 +1,14 @@
+
 /* About Section */
 #about {
 	padding: 120px 0;
 	background: $bll;
 	
+	span {
+		font-weight: bold;
+		background: linear-gradient(transparent 60%, $yd 60%);
+	}
+
 	@include sp {
 		padding: 70px 0;
 	}
@@ -11,10 +17,6 @@
 		p {
 			margin-bottom: 30px;
 			
-			span {
-				font-weight: bold;
-                background: linear-gradient(transparent 60%, $bm 60%);
-			}
 
 			&:last-child {
                 margin-bottom: 60px;
@@ -40,6 +42,10 @@
                 box-shadow: 4px 4px 7px 0px rgba(0, 0, 0, 0.3), -15px 0 $bl;
 
 			}
+		}
+
+		h4 {
+			font-weight: bold;
 		}
 	}
 }

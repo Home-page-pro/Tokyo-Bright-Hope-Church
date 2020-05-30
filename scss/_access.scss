@@ -1,38 +1,10 @@
 /* access Section */
 #access {
-	color: #fff;
-	background: #a7c44c url(../img/access-bg.jpg) center top no-repeat;
-	background-size: cover;
-}
-#access .overlay {
 	padding: 120px 0;
-	background: rgba(167, 196, 76, 0.9);
-}
-#access h2, #access p {
-	color: #fff;
-}
-#access hr {
-	background: #fff;
-}
-#access h3 {
-	color: #fff;
-	font-weight: 500;
-	font-size: 20px;
-	margin: 5px 0;
-}
-#access .access-img {
-	width: 200px;
-	height: 200px;
-	border-radius: 50px 0 50px 0;
-	box-shadow: 15px 0 #96b044;
-}
-#access .thumbnail {
-	background: transparent;
-	border: 0;
-}
-#access .thumbnail .caption {
-	padding-top: 10px;
-}
-#access .thumbnail .caption p {
-	color: #fff;
+	background-color: $yd;
+
+	@include sp {
+		padding: 70px 0;
+	}
+
 }

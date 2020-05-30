@@ -48,6 +48,7 @@
 }
 .section-title {
 	margin-bottom: 90px;
+	display: block;
 
 	@include sp {
 		margin-bottom: 60px;

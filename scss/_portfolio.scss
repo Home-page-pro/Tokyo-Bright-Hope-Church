@@ -3,6 +3,11 @@
 	padding: 120px 0;
 	background: #f6f6f6;
 
+	@include sp {
+		padding: 70px 0;
+	}
+
+
 	h4 {
 		font-weight: bold;
 		line-height: 40px;

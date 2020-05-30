@@ -270,6 +270,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 
 .section-title {
   margin-bottom: 90px;
+  display: block;
 }
 
 @media (max-width: 600px) {
@@ -389,6 +390,12 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
   background: #ecfcff;
 }
 
+#about span {
+  font-weight: bold;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(60%, transparent), color-stop(60%, #f7be16));
+  background: linear-gradient(transparent 60%, #f7be16 60%);
+}
+
 @media (max-width: 600px) {
   #about {
     padding: 70px 0;
@@ -397,12 +404,6 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 
 #about .AboutTBHC p {
   margin-bottom: 30px;
-}
-
-#about .AboutTBHC p span {
-  font-weight: bold;
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(60%, transparent), color-stop(60%, #51eaea));
-  background: linear-gradient(transparent 60%, #51eaea 60%);
 }
 
 #about .AboutTBHC p:last-child {
@@ -430,6 +431,10 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
           box-shadow: 4px 4px 7px 0px rgba(0, 0, 0, 0.3), -15px 0 #b2ebf2;
 }
 
+#about .pastor h4 {
+  font-weight: bold;
+}
+
 /* worship Section */
 #worship {
   padding: 120px 0;
@@ -444,7 +449,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 
 #worship h4 {
   line-height: 60px;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
   font-size: 30px;
 }
 
@@ -452,6 +457,10 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
   #worship h4 {
     font-size: 20px;
   }
+}
+
+#worship p {
+  margin-bottom: 50px;
 }
 
 #worship .worship {
@@ -472,6 +481,12 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 #portfolio {
   padding: 120px 0;
   background: #f6f6f6;
+}
+
+@media (max-width: 600px) {
+  #portfolio {
+    padding: 70px 0;
+  }
 }
 
 #portfolio h4 {
@@ -613,56 +628,26 @@ ol.type li a:hover {
 
 /* access Section */
 #access {
-  color: #fff;
-  background: #a7c44c url(../img/access-bg.jpg) center top no-repeat;
-  background-size: cover;
-}
-
-#access .overlay {
   padding: 120px 0;
-  background: rgba(167, 196, 76, 0.9);
+  background-color: #f7be16;
 }
 
-#access h2, #access p {
-  color: #fff;
-}
-
-#access hr {
-  background: #fff;
-}
-
-#access h3 {
-  color: #fff;
-  font-weight: 500;
-  font-size: 20px;
-  margin: 5px 0;
-}
-
-#access .access-img {
-  width: 200px;
-  height: 200px;
-  border-radius: 50px 0 50px 0;
-  -webkit-box-shadow: 15px 0 #96b044;
-          box-shadow: 15px 0 #96b044;
-}
-
-#access .thumbnail {
-  background: transparent;
-  border: 0;
-}
-
-#access .thumbnail .caption {
-  padding-top: 10px;
-}
-
-#access .thumbnail .caption p {
-  color: #fff;
+@media (max-width: 600px) {
+  #access {
+    padding: 70px 0;
+  }
 }
 
 /* Contact Section */
 #contact {
   padding: 120px 0 60px 0;
   background: #F6F6F6;
+}
+
+@media (max-width: 600px) {
+  #contact {
+    padding: 70px 0;
+  }
 }
 
 #contact form {
@@ -681,7 +666,7 @@ ol.type li a:hover {
   text-align: left;
 }
 
-label {
+#contact label {
   font-size: 12px;
   font-weight: 400;
   font-family: 'Open Sans', sans-serif;
@@ -712,19 +697,19 @@ label {
   box-shadow: transparent;
 }
 
-.form-control::-webkit-input-placeholder {
+#contact .form-control::-webkit-input-placeholder {
   color: #777;
 }
 
-.form-control:-moz-placeholder {
+#contact .form-control:-moz-placeholder {
   color: #777;
 }
 
-.form-control::-moz-placeholder {
+#contact .form-control::-moz-placeholder {
   color: #777;
 }
 
-.form-control:-ms-input-placeholder {
+#contact .form-control:-ms-input-placeholder {
   color: #777;
 }
 
@@ -742,6 +727,8 @@ label {
 
 #contact .contact-item p {
   font-size: 16px;
+  letter-spacing: 2px;
+  text-align-last: left;
 }
 
 /* Footer Section*/
