@@ -283,8 +283,8 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 .btn-custom {
   text-transform: uppercase;
   color: #fff;
-  text-shadow: 0 0 3px #3e64ff;
-  background-color: #51eaea;
+  text-shadow: 0 0 6px #f37121;
+  background-color: #f7be16;
   border: 0;
   padding: 14px 20px;
   margin: 0;
@@ -297,7 +297,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 
 .btn-custom:hover, .btn-custom:focus, .btn-custom.focus, .btn-custom:active, .btn-custom.active {
   color: rgba(255, 255, 255, 0.8);
-  background-color: #3e64ff;
+  background-color: #f7be16;
 }
 
 /* Header Section */
@@ -444,7 +444,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 /* worship Section */
 #worship {
   padding: 120px 0;
-  background-color: #d4f3ef;
+  background-color: #fffcc1;
 }
 
 @media (max-width: 600px) {
@@ -486,7 +486,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 /* Portfolio Section */
 #portfolio {
   padding: 120px 0;
-  background: #abf0e9;
+  background: #d4f3ef;
 }
 
 @media (max-width: 600px) {
@@ -634,7 +634,7 @@ ol.type li a:hover {
 /* access Section */
 #access {
   padding: 120px 0;
-  background-color: #d4f3ef;
+  background-color: #abf0e9;
 }
 
 @media (max-width: 600px) {
@@ -646,7 +646,7 @@ ol.type li a:hover {
 /* Contact Section */
 #contact {
   padding: 120px 0 60px 0;
-  background: #abf0e9;
+  background: #fffcc1;
 }
 
 @media (max-width: 600px) {

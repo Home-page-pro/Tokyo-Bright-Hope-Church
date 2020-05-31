@@ -60,8 +60,8 @@
 .btn-custom {
 	text-transform: uppercase;
 	color: #fff;
-	text-shadow: 0 0 3px $bd;
-	background-color: $bm;
+	text-shadow: 0 0 6px $ydd;
+	background-color: $yd;
 	border: 0;
 	padding: 14px 20px;
 	margin: 0;
@@ -73,5 +73,5 @@
 }
 .btn-custom:hover, .btn-custom:focus, .btn-custom.focus, .btn-custom:active, .btn-custom.active {
 	color: rgba(255,255,255,0.8);
-	background-color: $bd;
+	background-color: $yd;
 }
