@@ -352,6 +352,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 
 .intro .overlay .intro-text .header-title-1 {
   font-size: 100px;
+  color: #fffcc1;
 }
 
 @media (max-width: 600px) {
@@ -368,6 +369,10 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 .intro .overlay .intro-text span {
   color: #51eaea;
   font-weight: 600;
+}
+
+.intro .overlay .intro-text .yyy {
+  color: #fffcc1;
 }
 
 .intro .overlay .intro-text p {

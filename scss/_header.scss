@@ -43,6 +43,7 @@
 			
 			.header-title-1 {
 				font-size: 100px;
+				color: $yll;
 			
 				@include sp {
 					font-size: 50px;
@@ -58,6 +59,10 @@
 			span {
 				color: $bm;
 				font-weight: 600;
+			}
+
+			.yyy {
+				color: $yll;
 			}
 			
 			p {
