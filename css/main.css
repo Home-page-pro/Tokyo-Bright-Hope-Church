@@ -29,6 +29,7 @@ h2 {
   text-align: center;
   letter-spacing: 20px;
   text-indent: 20px;
+  font-family: 'Kosugi Maru', sans-serif;
 }
 
 @media (max-width: 600px) {
@@ -441,7 +442,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 #about .pastor .pastor-img-box img {
   margin-top: 30px;
   display: inline-block;
-  border-radius: 100px 0 100px 0;
+  border-radius: 75px 0;
   width: 70%;
   -webkit-box-shadow: 4px 4px 7px 0px rgba(0, 0, 0, 0.3);
           box-shadow: 4px 4px 7px 0px rgba(0, 0, 0, 0.3);
