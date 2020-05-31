@@ -28,6 +28,7 @@
 <!-- <link rel="stylesheet" type="text/css"  href="css/style.css"> -->
 <link rel="stylesheet" type="text/css" href="css/nivo-lightbox/nivo-lightbox.css">
 <link rel="stylesheet" type="text/css" href="css/nivo-lightbox/default.css">
+<link rel=" stylesheet " href=" https://unpkg.com/aos@next/dist/aos.css " />
 <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900" rel="stylesheet">
 
 <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -63,16 +64,17 @@
 </nav>
 
 <!-- Header -->
-<header id="header">
+<header id="header" data-aos="zoom-out" data-aos-mirror="true" data-aos-once="true" data-aos-delay="2300" data-aos-duration="2500">
   <div class="intro">
     <div class="overlay">
       <div class="container">
         <div class="row">
           <div class="intro-text">
-            <h1 class="header-title-1"><strong>TBHC</strong></h1>
-            <h1 class="header-title-2"><span>/</span>Tokyo Bright Hope Church</h1>
-            <p>希望の光を照らそう</p>
-            <a href="#about" class="btn btn-custom btn-lg page-scroll">Learn More</a> </div>
+            <h1 class="header-title-1" data-aos="zoom-out" data-aos-mirror="true" data-aos-once="true" data-aos-delay="2500" data-aos-duration="1750"><strong>TBHC</strong></h1>
+            <h1 class="header-title-2" data-aos="zoom-out" data-aos-mirror="true" data-aos-once="true" data-aos-delay="2700" data-aos-duration="1750"><span>/</span>Tokyo Bright Hope Church</h1>
+            <p data-aos="zoom-out" data-aos-mirror="ture" data-aos-once="true" data-aos-delay="2900" data-aos-duration="1750">希望の光を照らそう</p>
+            <a href="#about" class="btn btn-custom btn-lg page-scroll" data-aos="zoom-out" data-aos-mirror="true" data-aos-once="true" data-aos-delay="3100" data-aos-duration="1750">Learn More</a> 
+          </div>
         </div>
       </div>
     </div>
@@ -121,9 +123,8 @@
     <div class="row">
       <div class="col-xs-12 col-sm-6 col-md-4 worship"> <img src="img/実際に使う写真/礼拝/S__19456032 - コピー.jpg" class="img-responsive" alt="Project Title"></div>
       <div class="col-xs-12 col-sm-6 col-md-4 worship"> <img src="img/実際に使う写真/礼拝/修了式IJ話_7057 - コピー.jpg" class="img-responsive" alt="Project Title"></div>
-      <div class="col-xs-12 col-sm-6 col-md-4 worship"> <img src="img/実際に使う写真/礼拝/S__19472394.jpg" class="img-responsive" alt="Project Title"></div>
-      <div class="col-xs-12 col-sm-6 col-md-4 worship"> <img src="img/実際に使う写真/礼拝/S__19472392.jpg" class="img-responsive" alt="Project Title"></div>
-      <div class="col-xs-12 col-sm-6 col-md-4 worship"> <img src="img/実際に使う写真/礼拝/S__19456031 - コピー.jpg" class="img-responsive" alt="Project Title"></div>
+      <div class="col-xs-12 col-sm-6 col-md-4 worship"> <img src="img/実際に使う写真/礼拝/S__19505203.jpg" class="img-responsive" alt="Project Title"></div>
+      <div class="col-xs-12 col-sm-6 col-md-4 worship"> <img src="img/実際に使う写真/礼拝/S__19505205.jpg" class="img-responsive" alt="Project Title"></div>
       <div class="col-xs-12 col-sm-6 col-md-4 worship"> <img src="img/実際に使う写真/礼拝/146242.jpg" class="img-responsive" alt="Project Title"></div>
     </div>
   </div>
@@ -147,7 +148,7 @@
             <li><a href="#" data-filter=".gospel">ゴスペルライブ</a></li>
             <li><a href="#" data-filter=".sports">スポーツ</a></li>
             <li><a href="#" data-filter=".training-camp">合宿</a></li>
-            <li><a href="#" data-filter=".other">各種イベント</a></li>
+            <li><a href="#" data-filter=".other">シーズンイベント</a></li>
           </ol>
         </li>
       </ul>
@@ -324,7 +325,7 @@
 
         <div class="col-sm-6 col-md-4 col-lg-4 other">
           <div class="portfolio-item">
-            <div class="hover-bg"> <a class="portfolio-large" href="img/実際に使う写真/その他/クリスマス会/クリパエンディングまさる飛_8937.jpg" 　title="クリスマス会
+            <div class="hover-bg"> <a class="portfolio-large" href="img/実際に使う写真/その他/クリスマス会/クリパエンディングまさる飛_8937.jpg" title="クリスマス会"
                 　data-lightbox-gallery="gallery1">
                 <div class="hover-text">
                   <h4>クリスマス会</h4>
@@ -442,6 +443,17 @@
           </div>
         </div>
 
+        <div class="col-sm-6 col-md-4 col-lg-4 gospel">
+          <div class="portfolio-item">
+            <div class="hover-bg"> <a class="portfolio-large" href="img/実際に使う写真/ゴスペル/commercial-design.jpg" title="ゴスペルライブ"
+                data-lightbox-gallery="gallery1">
+                <div class="hover-text">
+                  <h4>ゴスペルライブ</h4>
+                </div>
+                <img src="img/実際に使う写真/ゴスペル/commercial-design.jpg" class="img-responsive" alt="Project Title">
+              </a> </div>
+          </div>
+        </div>
           
       </div>
     </div>
@@ -525,6 +537,10 @@
   <p><img src="img/実際に使う写真/S__19472396.jpg" alt=""></p>
 </div>
 
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init({ });
+</script>
 
 
 <script type="text/javascript" src="js/jquery.1.11.1.js"></script> 

@@ -152,7 +152,7 @@ hr {
   width: 70px;
   text-align: center;
   position: relative;
-  background: #3e64ff;
+  background: #333;
   margin: 0 auto;
   margin-bottom: 20px;
   border: 0;
@@ -479,8 +479,8 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
   height: 200px;
   display: inline-block;
   border-radius: 75px 0 75px 0;
-  -webkit-box-shadow: 4px 4px 7px 0px rgba(0, 0, 0, 0.3), -15px 0 #b2ebf2;
-          box-shadow: 4px 4px 7px 0px rgba(0, 0, 0, 0.3), -15px 0 #b2ebf2;
+  -webkit-box-shadow: 4px 4px 7px 0px rgba(0, 0, 0, 0.3);
+          box-shadow: 4px 4px 7px 0px rgba(0, 0, 0, 0.3);
 }
 
 /* Portfolio Section */
@@ -623,7 +623,6 @@ ol.type li a:hover {
 
 .hover-bg:hover .hover-text > h4 {
   opacity: 1;
-  -webkit-backface-visibility: hidden;
   -webkit-transform: translateY(0);
   transform: translateY(0);
 }
