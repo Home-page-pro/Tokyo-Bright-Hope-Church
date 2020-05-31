@@ -398,8 +398,8 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 
 #about span {
   font-weight: bold;
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(60%, transparent), color-stop(60%, #fcf876));
-  background: linear-gradient(transparent 60%, #fcf876 60%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(60%, transparent), color-stop(60%, #f7be16));
+  background: linear-gradient(transparent 60%, #f7be16 60%);
 }
 
 @media (max-width: 600px) {
@@ -433,8 +433,8 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
   display: inline-block;
   border-radius: 100px 0 100px 0;
   width: 70%;
-  -webkit-box-shadow: 4px 4px 7px 0px rgba(0, 0, 0, 0.3), -15px 0 #abf0e9;
-          box-shadow: 4px 4px 7px 0px rgba(0, 0, 0, 0.3), -15px 0 #abf0e9;
+  -webkit-box-shadow: 4px 4px 7px 0px rgba(0, 0, 0, 0.3);
+          box-shadow: 4px 4px 7px 0px rgba(0, 0, 0, 0.3);
 }
 
 #about .pastor h4 {
