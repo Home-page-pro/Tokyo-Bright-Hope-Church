@@ -47,6 +47,12 @@ body, html {
 	letter-spacing: 3px;
 }
 
+.container {
+	@include sp {
+		width: 80vw;
+	}
+}
+
 h2 {
 	margin-bottom: 20px;
 	font-weight: 600;
