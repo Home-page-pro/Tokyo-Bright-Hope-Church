@@ -207,11 +207,11 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 		margin: 0 auto;
 
 		@include tb {
-			width: 40vw;
+			width: 30vw;
 		}
 
 		@include sp {
-			width: 80vw;
+			width: 40vw;
 		}
 	}
 }

@@ -204,13 +204,13 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 
 @media (max-width: 1100px) {
   .start p img {
-    width: 40vw;
+    width: 30vw;
   }
 }
 
 @media (max-width: 600px) {
   .start p img {
-    width: 80vw;
+    width: 40vw;
   }
 }
 
@@ -288,7 +288,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 .btn-custom {
   text-transform: uppercase;
   color: #fff;
-  text-shadow: 0 0 6px #f37121;
+  text-shadow: 0 0 6px #ff5722;
   background-color: #ff8a5c;
   border: 0;
   padding: 14px 20px;
@@ -361,7 +361,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 }
 
 .intro .overlay .intro-text .header-title-2 {
-  font-family: 'Krona One', sans-serif;
+  font-family: 'Dosis', sans-serif;
   line-height: 40px;
 }
 
