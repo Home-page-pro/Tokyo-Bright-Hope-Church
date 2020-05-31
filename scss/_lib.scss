@@ -26,7 +26,8 @@ $bm: #51eaea;
 $bd: #3e64ff;
 $yll: #fffcc1;
 $yl: #fcf876;
-$yd: #f7be16;
+$ym: #ffba92; 
+$yd: #ff8a5c;
 $ydd: #f37121;
 
 /*----------------------*/ 
@@ -61,6 +62,11 @@ h2 {
 		letter-spacing: 10px;
 		text-indent: 10px;
 	}
+
+	&:first-letter {
+		font-size: 2em;
+		color: $ydd;
+}
 }
 
 h3 {
@@ -156,16 +162,16 @@ ul, ol {
 	// webkit-padding: 0;
 	// moz-padding: 0;
 }
-hr {
-	height: 4px;
-	width: 70px;
-	text-align: center;
-	position: relative;
-	background: #333;
-	margin: 0 auto;
-	margin-bottom: 20px;
-	border: 0;
-}
+	hr {
+		height: 0px;
+		width: 70px;
+		text-align: center;
+		position: relative;
+		background: #333;
+		margin: 0 auto;
+		margin-bottom: 20px;
+		border: 0;
+	}
 .btn:active, .btn.active {
 	background-image: none;
 	outline: 0;
