@@ -393,7 +393,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 /* About Section */
 #about {
   padding: 120px 0;
-  background: #ecfcff;
+  background: #abf0e9;
 }
 
 #about span {
@@ -433,8 +433,8 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
   display: inline-block;
   border-radius: 100px 0 100px 0;
   width: 70%;
-  -webkit-box-shadow: 4px 4px 7px 0px rgba(0, 0, 0, 0.3), -15px 0 #b2ebf2;
-          box-shadow: 4px 4px 7px 0px rgba(0, 0, 0, 0.3), -15px 0 #b2ebf2;
+  -webkit-box-shadow: 4px 4px 7px 0px rgba(0, 0, 0, 0.3), -15px 0 #abf0e9;
+          box-shadow: 4px 4px 7px 0px rgba(0, 0, 0, 0.3), -15px 0 #abf0e9;
 }
 
 #about .pastor h4 {
@@ -444,7 +444,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 /* worship Section */
 #worship {
   padding: 120px 0;
-  background-color: #51eaea;
+  background-color: #d4f3ef;
 }
 
 @media (max-width: 600px) {
@@ -486,7 +486,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 /* Portfolio Section */
 #portfolio {
   padding: 120px 0;
-  background: #f6f6f6;
+  background: #abf0e9;
 }
 
 @media (max-width: 600px) {
@@ -592,7 +592,7 @@ ol.type li a:hover {
 }
 
 .portfolio-item img {
-  border-radius: 0 50px 0 50px;
+  border-radius: 50px 0 50px 0;
 }
 
 .hover-bg .hover-text {
@@ -607,7 +607,7 @@ ol.type li a:hover {
   opacity: 0;
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
-  border-radius: 0 50px 0 50px;
+  border-radius: 50px 0 50px 0;
 }
 
 .hover-bg .hover-text > h4 {
@@ -634,7 +634,7 @@ ol.type li a:hover {
 /* access Section */
 #access {
   padding: 120px 0;
-  background-color: #f7be16;
+  background-color: #d4f3ef;
 }
 
 @media (max-width: 600px) {
@@ -646,7 +646,7 @@ ol.type li a:hover {
 /* Contact Section */
 #contact {
   padding: 120px 0 60px 0;
-  background: #F6F6F6;
+  background: #abf0e9;
 }
 
 @media (max-width: 600px) {
