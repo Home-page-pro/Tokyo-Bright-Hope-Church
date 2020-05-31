@@ -393,7 +393,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 /* About Section */
 #about {
   padding: 120px 0;
-  background: #abf0e9;
+  background: #fffcc1;
 }
 
 #about span {
@@ -444,7 +444,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 /* worship Section */
 #worship {
   padding: 120px 0;
-  background-color: #fffcc1;
+  background-color: #abf0e9;
 }
 
 @media (max-width: 600px) {
@@ -646,7 +646,7 @@ ol.type li a:hover {
 /* Contact Section */
 #contact {
   padding: 120px 0 60px 0;
-  background: #fcf876;
+  background: #fffcc1;
 }
 
 @media (max-width: 600px) {
