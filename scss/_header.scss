@@ -33,6 +33,8 @@
 			
 			.header-title-1 {
 				font-size: 100px;
+				animation-duration: 1.5s; 
+				animation-delay: 4s;
 			
 				@include sp {
 					font-size: 50px;
@@ -44,6 +46,8 @@
 				// font-family: 'Dosis', sans-serif;
 				line-height: 40px;
 				letter-spacing: 7px;
+				animation-duration: 1.5s; 
+				animation-delay: 4.2s;				
 			}
 			
 			.sra {
@@ -64,6 +68,8 @@
 				letter-spacing: 1rem;
 				text-indent: 1rem;
 				font-family: 'ＭＳ 明朝','serif';
+				animation-duration: 1.5s; 
+				animation-delay: 4.4s;		
 				
 				@include tb {
 					letter-spacing: 0.5rem;
@@ -75,6 +81,11 @@
 					text-indent: 0.8rem;
 					font-size: 15px;
 				}
+			}
+
+			.btn-head {
+				animation-duration: 1.5s; 
+				animation-delay: 4.6s;	
 			}
 		}
 	
