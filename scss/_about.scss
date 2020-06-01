@@ -2,16 +2,16 @@
 /* About Section */
 #about {
 	padding: 120px 0;
-	background: $yll;
 	
 	span {
 		font-weight: bold;
-		background: linear-gradient(transparent 60%, $ym 60%);
-	}
+		background: linear-gradient(transparent 60%, $yd 60%);
+		}
 
-	@include sp {
-		padding: 70px 0;
-	}
+		@include sp {
+			padding: 70px 0;
+		}
+	
 	
 	.AboutTBHC {
 		p {

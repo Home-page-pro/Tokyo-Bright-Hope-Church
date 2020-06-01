@@ -12,7 +12,7 @@ body, html {
   font-family: 'Roboto', sans-serif;
   text-rendering: optimizeLegibility !important;
   -webkit-font-smoothing: antialiased !important;
-  color: #3c4245;
+  color: #222;
   font-weight: 300;
   width: 100% !important;
   height: 100% !important;
@@ -26,16 +26,17 @@ body, html {
   }
 }
 
+.overlay2 {
+  background: rgba(255, 255, 255, 0.7);
+}
+
 h2 {
   margin-bottom: 20px;
   font-weight: 600;
   font-size: 34px;
-  color: #333;
-  text-transform: uppercase;
   text-align: center;
   letter-spacing: 20px;
   text-indent: 20px;
-  font-family: 'Kosugi Maru', sans-serif;
 }
 
 @media (max-width: 600px) {
@@ -54,7 +55,6 @@ h2:first-letter {
 h3 {
   font-size: 26px;
   font-weight: 550;
-  color: #f37121;
   text-align: center;
   letter-spacing: 5px;
   text-indent: 5px;
@@ -71,7 +71,6 @@ h4 {
   font-size: 22px;
   text-transform: uppercase;
   font-weight: 400;
-  color: #333;
   text-align: center;
   margin: 30px 0;
   letter-spacing: 5px;
@@ -313,7 +312,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
   text-transform: uppercase;
   color: #fff;
   text-shadow: 0 0 6px #ff5722;
-  background-color: #ff8a5c;
+  background-color: #f37121;
   border: 0;
   padding: 14px 20px;
   margin: 0;
@@ -367,7 +366,6 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 
 .intro .intro-text .header-title-1 {
   font-size: 100px;
-  color: #fffcc1;
 }
 
 @media (max-width: 600px) {
@@ -377,6 +375,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 }
 
 .intro .intro-text .header-title-2 {
+  font-family: 'Krona One', sans-serif;
   line-height: 40px;
   letter-spacing: 7px;
 }
@@ -384,10 +383,6 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 .intro .intro-text .sra {
   color: #51eaea;
   font-weight: 600;
-}
-
-.intro .intro-text .yyy {
-  color: #fffcc1;
 }
 
 .intro .intro-text p {
@@ -418,13 +413,12 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 /* About Section */
 #about {
   padding: 120px 0;
-  background: #fffcc1;
 }
 
 #about span {
   font-weight: bold;
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(60%, transparent), color-stop(60%, #ffba92));
-  background: linear-gradient(transparent 60%, #ffba92 60%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(60%, transparent), color-stop(60%, #ff8a5c));
+  background: linear-gradient(transparent 60%, #ff8a5c 60%);
 }
 
 @media (max-width: 600px) {
@@ -469,7 +463,6 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 /* worship Section */
 #worship {
   padding: 120px 0;
-  background-color: #abf0e9;
 }
 
 @media (max-width: 600px) {
@@ -482,6 +475,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
   line-height: 60px;
   margin-bottom: 30px;
   font-size: 30px;
+  font-weight: bold;
 }
 
 @media (max-width: 600px) {
@@ -511,7 +505,6 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 /* Portfolio Section */
 #portfolio {
   padding: 120px 0;
-  background: #d4f3ef;
 }
 
 @media (max-width: 600px) {
@@ -526,8 +519,8 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 }
 
 #portfolio h4 span {
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(80%, transparent), color-stop(80%, #fcf876));
-  background: linear-gradient(transparent 80%, #fcf876 80%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(80%, transparent), color-stop(80%, #ff8a5c));
+  background: linear-gradient(transparent 80%, #ff8a5c 80%);
 }
 
 #portfolio .portfolio-p {
@@ -550,23 +543,23 @@ ol.type li {
 }
 
 ol.type li a {
-  color: #3e64ff;
+  color: #f37121;
   font-weight: 400;
   font-size: 15px;
   padding: 10px 20px;
-  border: 2px solid #3e64ff;
+  border: 2px solid #f37121;
   border-radius: 10px 0 10px 0;
   text-transform: uppercase;
   letter-spacing: 0.5px;
 }
 
 ol.type li a.active {
-  background: #3e64ff;
+  background: #f37121;
   color: #fff;
 }
 
 ol.type li a:hover {
-  background: #3e64ff;
+  background: #f37121;
   color: #fff;
 }
 
@@ -659,7 +652,6 @@ ol.type li a:hover {
 /* access Section */
 #access {
   padding: 120px 0;
-  background-color: #abf0e9;
 }
 
 @media (max-width: 600px) {
@@ -671,7 +663,6 @@ ol.type li a:hover {
 /* Contact Section */
 #contact {
   padding: 120px 0 60px 0;
-  background: #fffcc1;
 }
 
 @media (max-width: 600px) {
@@ -688,7 +679,6 @@ ol.type li a:hover {
   text-transform: uppercase;
   font-size: 20px;
   font-weight: 600;
-  color: #f37121;
 }
 
 #contact .contact-top-p {
@@ -753,7 +743,8 @@ ol.type li a:hover {
 
 #contact .contact-item span {
   font-weight: 400;
-  color: #aaa;
+  color: #222;
+  font-weight: bold;
   text-transform: uppercase;
   margin-bottom: 6px;
   display: block;

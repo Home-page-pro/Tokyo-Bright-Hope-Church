@@ -1,7 +1,6 @@
 /* Portfolio Section */
 #portfolio {
 	padding: 120px 0;
-	background: $bll;
 
 	@include sp {
 		padding: 70px 0;
@@ -13,7 +12,7 @@
 		line-height: 40px;
 		
 		span {
-			background: linear-gradient(transparent 80%, $yl 80%);
+			background: linear-gradient(transparent 80%, $yd 80%);
 			
 		}
 	}
@@ -36,21 +35,21 @@ ol.type li {
 	margin-left: 20px;
 }
 ol.type li a {
-	color: $bd;
+	color: $ydd;
 	font-weight: 400;
 	font-size: 15px;
 	padding: 10px 20px;
-	border: 2px solid $bd;
+	border: 2px solid $ydd;
 	border-radius: 10px 0 10px 0;
 	text-transform: uppercase;
 	letter-spacing: 0.5px;
 }
 ol.type li a.active {
-	background: $bd;
+	background: $ydd;
 	color: #fff;
 }
 ol.type li a:hover {
-	background: $bd;
+	background: $ydd;
 	color: #fff;
 }
 .isotope-item {

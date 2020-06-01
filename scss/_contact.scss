@@ -1,7 +1,6 @@
 /* Contact Section */
 #contact {
 	padding: 120px 0 60px 0;
-	background: $yll;
 
 	@include sp {
 		padding: 70px 0;
@@ -15,7 +14,6 @@
 		text-transform: uppercase;
 		font-size: 20px;
 		font-weight: 600;
-		color: $ydd;
 	}
 	
 	.contact-top-p {
@@ -74,7 +72,8 @@
 		
 		span {
 			font-weight: 400;
-			color: #aaa;
+			color: #222;
+			font-weight: bold;
 			text-transform: uppercase;
 			margin-bottom: 6px;
 			display: block;
