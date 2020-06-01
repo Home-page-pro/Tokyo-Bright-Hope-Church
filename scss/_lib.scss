@@ -47,7 +47,7 @@ body, html {
 	letter-spacing: 3px;
 }
 
-.container {
+.container2 {
 	@include sp {
 		width: 90vw;
 	}
@@ -55,6 +55,17 @@ body, html {
 
 .overlay2 {
 	background: rgba(255, 255, 255,0.7);
+}
+
+.fadein {
+	opacity: 0;
+	transform : translate(0, 50px);
+	transition : all 1000ms;
+}
+
+.fadein.scrollin{
+	opacity: 1;
+	transform: translate(0, 0);
 }
 
 h2 {

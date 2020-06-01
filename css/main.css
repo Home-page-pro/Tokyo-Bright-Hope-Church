@@ -21,13 +21,27 @@ body, html {
 }
 
 @media (max-width: 600px) {
-  .container {
+  .container2 {
     width: 90vw;
   }
 }
 
 .overlay2 {
   background: rgba(255, 255, 255, 0.7);
+}
+
+.fadein {
+  opacity: 0;
+  -webkit-transform: translate(0, 50px);
+          transform: translate(0, 50px);
+  -webkit-transition: all 1000ms;
+  transition: all 1000ms;
+}
+
+.fadein.scrollin {
+  opacity: 1;
+  -webkit-transform: translate(0, 0);
+          transform: translate(0, 0);
 }
 
 h2 {
@@ -274,6 +288,8 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 }
 
 .on {
+  -webkit-box-shadow: 0 0 15px 5px rgba(0, 0, 0, 0.4);
+          box-shadow: 0 0 15px 5px rgba(0, 0, 0, 0.4);
   background-color: #363636 !important;
   padding: 0 !important;
   padding: 10px 0 !important;
