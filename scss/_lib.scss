@@ -202,35 +202,82 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	outline-offset: none;
 }
 
+
+
+
+
+
+
 .start {
-	background: #FFF;
+	background: $ydd;
 	position: fixed;
 	top: 0;
 	left: 0;
 	height: 100%;
 	width: 100%;
 	z-index: 9000;
+	display: flex;
+	align-items: center;
 }
 .start p {
+	font-weight: bold;
+	margin: 0;
 	position: fixed;
-	left: 50%;
-	top: 50%;
-	transform: translate(-50%, -50%);
 	display: none;
 	z-index: 9999;
 	width: 100%;
+	color: #fff;
+    text-align: center;
+    font-size: 6vw;
+    height: 1em;
+    line-height: 1.2;
+    position: absolute;
+    z-index: 7;
+    opacity: 0;
+    animation: textAnime1 .5s linear forwards;
 
-	img {
-		display: block;
-		width: 20vw;
-		margin: 0 auto;
-
-		@include tb {
-			width: 30vw;
+	span{
+		display: inline-block;
+		
+		&:nth-child(1){
+			animation: textAnime2 .6s ease-in-out .5s forwards;
 		}
-
-		@include sp {
-			width: 40vw;
+		
+		&:nth-child(2){
+			animation: textAnime2 .6s ease-in-out .6s forwards;
+		}
+		
+		&:nth-child(3){
+			animation: textAnime2 .6s ease-in-out .7s forwards;
+		}
+		
+		&:nth-child(4){
+			animation: textAnime2 .6s ease-in-out .8s forwards;
 		}
 	}
+
+/*keyframe*/
+@keyframes textAnime1{
+0%{
+    opacity: 0;
+}
+100%{
+    opacity: 1;
+}
+}
+ 
+@keyframes textAnime2 {
+0% {
+    transform: translateY(0);
+}
+25%{
+    transform: translateY(-30%);
+}
+75% {
+    transform: translateY(30%);
+}
+100%{
+    transform: translateY(0);
+}
+}
 }

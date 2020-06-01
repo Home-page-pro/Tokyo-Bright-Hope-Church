@@ -196,41 +196,118 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 }
 
 .start {
-  background: #FFF;
+  background: #f37121;
   position: fixed;
   top: 0;
   left: 0;
   height: 100%;
   width: 100%;
   z-index: 9000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .start p {
+  font-weight: bold;
+  margin: 0;
   position: fixed;
-  left: 50%;
-  top: 50%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
   display: none;
   z-index: 9999;
   width: 100%;
+  color: #fff;
+  text-align: center;
+  font-size: 6vw;
+  height: 1em;
+  line-height: 1.2;
+  position: absolute;
+  z-index: 7;
+  opacity: 0;
+  -webkit-animation: textAnime1 .5s linear forwards;
+          animation: textAnime1 .5s linear forwards;
+  /*keyframe*/
 }
 
-.start p img {
-  display: block;
-  width: 20vw;
-  margin: 0 auto;
+.start p span {
+  display: inline-block;
 }
 
-@media (max-width: 1100px) {
-  .start p img {
-    width: 30vw;
+.start p span:nth-child(1) {
+  -webkit-animation: textAnime2 .6s ease-in-out .5s forwards;
+          animation: textAnime2 .6s ease-in-out .5s forwards;
+}
+
+.start p span:nth-child(2) {
+  -webkit-animation: textAnime2 .6s ease-in-out .6s forwards;
+          animation: textAnime2 .6s ease-in-out .6s forwards;
+}
+
+.start p span:nth-child(3) {
+  -webkit-animation: textAnime2 .6s ease-in-out .7s forwards;
+          animation: textAnime2 .6s ease-in-out .7s forwards;
+}
+
+.start p span:nth-child(4) {
+  -webkit-animation: textAnime2 .6s ease-in-out .8s forwards;
+          animation: textAnime2 .6s ease-in-out .8s forwards;
+}
+
+@-webkit-keyframes textAnime1 {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
   }
 }
 
-@media (max-width: 600px) {
-  .start p img {
-    width: 40vw;
+@keyframes textAnime1 {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes textAnime2 {
+  0% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  25% {
+    -webkit-transform: translateY(-30%);
+            transform: translateY(-30%);
+  }
+  75% {
+    -webkit-transform: translateY(30%);
+            transform: translateY(30%);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+}
+
+@keyframes textAnime2 {
+  0% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  25% {
+    -webkit-transform: translateY(-30%);
+            transform: translateY(-30%);
+  }
+  75% {
+    -webkit-transform: translateY(30%);
+            transform: translateY(30%);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
   }
 }
 
