@@ -311,8 +311,8 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 .btn-custom {
   text-transform: uppercase;
   color: #fff;
-  text-shadow: 0 0 6px #ff5722;
-  background-color: #f37121;
+  text-shadow: 0 0 6px #ea6227;
+  background-color: #ff8a5c;
   border: 0;
   padding: 14px 20px;
   margin: 0;
@@ -393,6 +393,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
   margin-bottom: 40px;
   letter-spacing: 1rem;
   text-indent: 1rem;
+  font-family: 'ＭＳ 明朝','serif';
 }
 
 @media (max-width: 1100px) {
