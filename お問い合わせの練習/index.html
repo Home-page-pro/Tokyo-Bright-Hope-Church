@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CSSの練習</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <table class="mb-5">
+        <thead>
+            <tr><th>年</th><th>出来事</th></tr>
+        </thead>
+        <tbody>
+            <tr><td>2015</td><td>会社設立</td></tr>
+            <tr><td>2018</td><td>サイトリニューアル</td></tr>
+        </tbody>
+    </table>
+
+    <h2>お問い合わせ</h2>
+    <form action="">
+        <p class="mb-5">
+            <label for="">氏名 <input type="text"></label>
+            <label for="name">氏名</label>
+            <input type="text" id="name" value="名無しです">
+            <label for="name1">氏名</label>
+            <input type="text" id="name1    " placeholder="本名を入力してください">
+        </p>
+        <p class="mb-5">
+            <label for="message" >メッセージ</label>
+            <textarea name="" id="message" cols="30" rows="5">メッセージです</textarea>
+            <label for="message1" >メッセージ</label>
+            <textarea name="" id="message1" cols="30" rows="5" placeholder="30字以内でお願いします"     ></textarea>
+        </p>
+        <p class="mb-5">
+            <button class="px-5 py-2">送信</button>
+            <input type="submit" value="送信" class="submit px-5 py-2">
+        </p>
+
+        <p class="mb-5">
+            <label for="pwd">パスワード</label>
+            <input type="password" id="pwd">
+        </p>
+
+        <p class="mb-5">
+            <label for="product">対象商品</label>
+                <select name="" id="product" size="3" multiple>
+                    <option value="">対象商品A</option>
+                    <option value="">対象商品B</option>
+                    <option value="" selected>対象商品C</option>
+                    <option value="">対象商品D</option>
+                    <option value="">対象商品E</option>
+                </select>
+        </p>
+
+        <p>
+            <fieldset>
+                <legend class="mb-2">お使いのスマホ(複数選択可)</legend>
+                <input type="checkbox" id="android" checked><label for="android" class="mr-3">Android</label>
+                <input type="checkbox" id="iphone"><label for="iPhone" class="mr-3">iPhone</label>
+                <input type="checkbox" id="other"><label for="other">その他</label>
+            </fieldset>
+
+            <fieldset>
+                <legend class="mb-2">一番好きなスマホ</legend>
+                <input name="phone" type="radio" id="android1" checked><label for="android1" class="mr-3">Android</label>
+                <input name="phone" type="radio" id="iphone2"><label for="iPhone2" class="mr-3">iPhone</label>
+                <input name="phone" type="radio" id="other3"><label for="other3">その他</label>
+            </fieldset>
+        </p>
+    </form>
+</body>
+</html>
